@@ -1,0 +1,15 @@
+ID,Test Case,Pre-condition,Test Steps,Test Data,Expected Output,Post-condition,Actual Output,Status,Comments
+TC01,Signup Test,User is on the homepage of the website.,1. Navigate to the signup page.,Valid Username,User is successfully signed up and redirected to the dashboard.,User is registered and logged in.,Signup successful,Pass,Signup is working 
+,,,"2. Enter a username, email, and password.",valid Email,,,,,
+,,,"3. Click on ""Sign Up"".",valid Password ,,,,,
+TC02,Login Test,User has already signed up with valid credentials.,1. Navigate to the login page.,Valid Usernamevalid Password,User is successfully logged in and redirected to the homepage.,User is logged in and on the homepage.,Login successful,Pass,Login functionality is working
+,,,2. Enter the username and password.,,,,,,
+,,,"3. Click on ""Login"".",,,,,,
+TC03,Scroll Test,User is on the homepage of the website.,1. Open the webpage.,Scroll ,Content continues to load while scrolling.,User is able to scroll without issues.,Scrolling without issues,Pass,Test case executed successfully.
+,,,2. Scroll down to the bottom of the page.,,,,,,
+,,,3. Verify content loads as you scroll.,,,,,,
+TC04,Search Test,User is logged into the website.,1. Type a query into the search bar.,"Search Query: ""movie title""",Relevant search results are displayed.,User is able to view search results.,Search result is visible,Pass,Successfully working
+,,,"2. Click ""Search"".",,,,,,
+,,,3. Verify search results are displayed.,,,,,,
+TC05,Logout Test,User is logged into the website.,"1. Click on the ""Logout"" button.",N/A,User is logged out and redirected to the homepage.,User is logged out and on the homepage.,Successfullt logged out and redirected,Pass,Logout working successfully
+,,,2. Verify that the user is logged out.,,,,,,
